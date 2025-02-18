@@ -1,0 +1,20 @@
+﻿{
+  "$schema": "http://json.schemastore.org/launchsettings.json",
+  "profiles": {
+    "Swagger": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "applicationUrl": "https://localhost:5000",
+      "environmentVariables": {
+        "APP_USERNAME": "admin",
+        "APP_PASSWORD": "password123",
+        "DOTNET_ENVIRONMENT": "Development",
+        "JWT_SECRET": "aS5j9Fq2Lx3vZ8g0pKsM7Nt5W4rG6XQY",
+        "ENCRYPTION_KEY": "hWEOnUqQIvBfSS84UwWdOwAmWK1P7gFG",
+        "DATABASE_CONNECTION": "Server=(localdb)\\Patients;Database=PatientRecords;Trusted_Connection=True;"
+      }
+    }
+  }
+}
